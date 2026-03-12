@@ -1,13 +1,28 @@
 # 🛡️ Shelby-Aptos Provenance Pipeline
 
-Build on **Shelby Global Object Storage** & **Aptos Blockchain**.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Aptos](https://img.shields.io/badge/Network-Aptos-blue)](https://aptoslabs.com/)
+[![Shelby](https://img.shields.io/badge/Storage-Shelby-orange)](https://shelby.xyz/)
 
-## 🚀 Key Features
-- **70% Lower Egress:** Save costs on AI data movement.
-- **Global Speed:** Powered by DoubleZero Fiber.
-- **On-chain Trust:** Cryptographic provenance on Aptos.
+An enterprise-grade implementation for anchoring AI training datasets and model weights onto the **Shelby Global Object Storage** layer with cryptographic verification on **Aptos**.
 
-## 🛠️ Usage
-1. `npm install`
-2. Create `.env` with `SHELBY_API_KEY`
-3. `node index.js`
+## 🚀 Key Advantages
+
+* **70% Egress Reduction:** Slash your cloud bill by moving away from legacy S3 providers.
+* **Single Global Namespace:** Write once, read anywhere via DoubleZero’s dedicated fiber backbone.
+* **Immutable Provenance:** Every asset is anchored on-chain, providing a transparent audit trail for AI model lineage.
+* **High Performance:** Designed specifically for the high-velocity data needs of modern AI/ML clusters.
+
+## 🛠️ Tech Stack
+
+- **Storage:** [Shelby Global Object Storage](https://docs.shelby.xyz/)
+- **Blockchain:** [Aptos (Testnet)](https://aptos.dev/)
+- **Runtime:** Node.js (JavaScript)
+
+## 📦 Quick Start
+
+1. **Clone & Install:**
+   ```bash
+   git clone [https://github.com/anhnguyenhoang/shelby-aptos-provenance.git](https://github.com/anhnguyenhoang/shelby-aptos-provenance.git)
+   cd shelby-aptos-provenance
+   npm install
