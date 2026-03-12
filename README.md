@@ -35,3 +35,8 @@ Execution:
 
 Bash
 npm start
+
+📄 License
+Distributed under the MIT License. See LICENSE for more information.
+
+Built by Nguyễn Hoàng Anh during the Shelby Early Access program.
