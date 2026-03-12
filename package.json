@@ -1,0 +1,10 @@
+{
+  "name": "shelby-aptos-provenance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@shelby-xyz/sdk": "latest",
+    "aptos": "^1.21.0",
+    "dotenv": "^16.4.5"
+  }
+}
