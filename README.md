@@ -26,3 +26,12 @@ An enterprise-grade implementation for anchoring AI training datasets and model 
    git clone [https://github.com/anhnguyenhoang/shelby-aptos-provenance.git](https://github.com/anhnguyenhoang/shelby-aptos-provenance.git)
    cd shelby-aptos-provenance
    npm install
+Create a .env file based on .env.example:
+
+SHELBY_API_KEY=your_key
+SHELBY_SECRET=your_secret
+
+Execution:
+
+Bash
+npm start
